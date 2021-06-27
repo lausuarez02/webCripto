@@ -33,4 +33,17 @@ In the first screen you would be able to search by the name or the symbol such a
 
 
 
+For this project I used
+#Bootstrap
+![fifth](/bootstrap.png)
+#ReactRouter
+![sixth](/reactRouter.png)
+#CoingeckoApi
+![sixth](/coin.png)
+#ReactJS
+![React Logo](/react-logo.jpg)
+
+
+
+
 
