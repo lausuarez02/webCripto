@@ -5,6 +5,13 @@ import {Link} from "react-router-dom"
 const Exchange = () => {
     const [criptos, setCriptos] = useState(0);
     const [num, setNum] = useState(0)
+    const [ btc, setBtc] = useState(0);
+   const [button, setButton] = useState(0);
+
+
+
+
+
     
     const fetchingData = async() => {
         try{
@@ -25,14 +32,41 @@ const Exchange = () => {
 
     
 
-
+    const exchange01 = () => {
+      let a = Number(btc)
+      let b = Number(criptos)
+        let r = (a * b)
+        return r
+    }
     const exchange = () => {
-        var a = Number(num)
-        var b = Number(criptos)
-        var r = (a / b)
+      let a = Number(num)
+      let b = Number(criptos)
+        let r = (a / b)
         return r
 
     }
+
+    const Click = () => {
+    if(button === 0){
+      return( 
+        <div>    <input type="number" className="form-control" placeholder="Usd" onChange={e => {setNum(e.target.value)}}/>
+        <button className="input-group-text" onClick={() => {setButton(button + 1)}}>To BTC | Switch</button>
+          <div type="text" className="form-control" placeholder="Btc" >{exchange()}</div></div>
+      )
+
+        }else if(button === 1){
+          return (
+            <div>
+            <input type="number" className="form-control" placeholder="Btc" onChange={e => {setBtc(e.target.value)}}/>
+            <button className="input-group-text" onClick={() => {setButton(button - 1)}}>To BTC | Switch</button>
+            <div type="text" className="form-control" placeholder="Btc" >{exchange01()}</div>
+            </div> 
+            
+          )
+
+      
+      
+        }}
     return(
         <div style={{backgroundColor:"#1d3557", width:"100%", height:"600px"}}>
               <div>
@@ -65,11 +99,16 @@ const Exchange = () => {
 </div>
   </div>
   </div>
-              <input type="number" className="form-control" placeholder="Usd" onChange={e => {setNum(e.target.value)}}/>
-  <span className="input-group-text">To BTC</span>
-  <div type="text" className="form-control" placeholder="Btc" >{exchange()}</div>
+<div>
+  {Click()}
+</div>
+    
+
+         
   <div class="navbar navbar-dark " style={{backgroundColor:"#1d3557",width:"100%", height:"100px" ,marginTop:"25%",borderTop:"2px",borderTopColor:"white",borderTopStyle:"solid", flexDirection:"row"}}>
+
 <div style={{marginLeft:"10%"}}>
+
 <p ><a href="https://www.coingecko.com/en/api" target="_blank" style={{textDecoration:"none", color:"white", textAlign:"center"}}>Api</a></p> 
 </div>
 
