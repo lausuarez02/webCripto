@@ -58,7 +58,7 @@ const Exchange = () => {
           return (
             <div>
             <input type="number" className="form-control" placeholder="Btc" onChange={e => {setBtc(e.target.value)}}/>
-            <button className="input-group-text" onClick={() => {setButton(button - 1)}}>To BTC | Switch</button>
+            <button className="input-group-text" onClick={() => {setButton(button - 1)}}>To USD | Switch</button>
             <div type="text" className="form-control" placeholder="Btc" >{exchange01()}</div>
             </div> 
             
