@@ -21,6 +21,10 @@ In the first screen you would be able to search by the name or the symbol such a
 
 
 #On the exchange screen you will be able to exchange an usd value for btc or vice versa. I leave the link here https://lausuarez02.github.io/webCripto/#/exchange
+
+
+
+
 ![third](/cripto02.jpeg)
 
 ![fourth](/cripto03.jpeg)
