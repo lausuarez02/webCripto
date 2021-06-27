@@ -1,8 +1,9 @@
 import React, {useState, useEffect} from "react"
-import CoinGecko from "coingecko-api";
+
+import {Link} from "react-router-dom"
 import logo from "../Círculo_Carcajadas__1_-removebg-preview.png"
 
-const CoinGeckoClient = new CoinGecko()
+
 
 export default function Body(){
     
@@ -55,15 +56,40 @@ new Intl.NumberFormat(
 return (
 
 
- <div  style={{backgroundColor:"#264653", width:"100%"}}>
+ <div  style={{backgroundColor:"#1d3557", width:"100%"}}>
+    <nav className="navbar navbar-expand-lg navbar-light" style={{color:"white",backgroundColor:"#264653",borderBottom:"2px", borderBottomColor:"white", borderBottomStyle:"solid"}}>
+  <div className="container-fluid">
+  <img src={logo} alt="Logo" style={{height:"100px", width:"100px"}}/>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav me-auto mb-4 mb-lg-0">
+        <li className="nav-item">
+        <Link to="/" className="nav-link" style={{color:"white"}}>Home</Link>
+        </li>
+        <li className="nav-item">
+        <Link to="/exchange" className="nav-link" style={{color:"white"}}>Exchange</Link>
+        </li>
+ 
+      </ul>
+      
 
-<nav class="navbar navbar-dark " style={{backgroundColor:"#1d3557",width:"100%" }} >
+   
+  </div>
+  </div>
+  </nav>
+
+     
+ 
+
+<nav className="navbar navbar-dark " style={{backgroundColor:"#1d3557",width:"100%" }} >
 <div style={{marginLeft:"32%"}}>
-<img src={logo} alt="Logo" style={{height:"200px", width:"200px"}}/>
+
 </div>
 
     <div  style={{width:"80%", marginLeft:"20px", marginRight:"20px"}}>
-     <form class="form-inline my-2 my-lg-0">
+     <form className="form-inline my-2 my-lg-0">
      <input className="form-control me-2" type="search" placeholder="Search..." onChange={handleChange} />
 
     </form></div>
@@ -152,7 +178,7 @@ return (
  </div>
   
 
-  
+
 )
 }
 
