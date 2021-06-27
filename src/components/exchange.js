@@ -65,7 +65,7 @@ const Exchange = () => {
 </div>
   </div>
   </div>
-              <input type="number" className="form-control" placeholder="Eur" onChange={e => {setNum(e.target.value)}}/>
+              <input type="number" className="form-control" placeholder="Usd" onChange={e => {setNum(e.target.value)}}/>
   <span className="input-group-text">To BTC</span>
   <div type="text" className="form-control" placeholder="Btc" >{exchange()}</div>
   <div class="navbar navbar-dark " style={{backgroundColor:"#1d3557",width:"100%", height:"100px" ,marginTop:"25%",borderTop:"2px",borderTopColor:"white",borderTopStyle:"solid", flexDirection:"row"}}>
