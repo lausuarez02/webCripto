@@ -14,16 +14,16 @@ You can also use it by install the dependencies from a npm package such as https
 
 
 #This is the first screen you see when you go to the webApp which link is https://lausuarez02.github.io/webCripto/
-![first]("/cripto.jpeg") 
+![first](/cripto.jpeg) 
 
 In the first screen you would be able to search by the name or the symbol such as btc or eth. Just as the screen below shows it.
-![second]("/cripto01.jpeg")
+![second](/cripto01.jpeg)
 
 
 #On the exchange screen you will be able to exchange an usd value for btc or vice versa. I leave the link here https://lausuarez02.github.io/webCripto/#/exchange
-![third]("/cripto02.jpeg")
+![third](/cripto02.jpeg)
 
-![fourth]("/cripto03.jpeg")
+![fourth](/cripto03.jpeg)
 
 
 
