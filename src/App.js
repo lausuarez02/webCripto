@@ -34,9 +34,9 @@ function App() {
     <div>
           <Router>
     <Switch>
-       <Route path="/" component={Body}/>
+       <Route exact path="/" component={Body}/>
 
-      <Route  path="/exchange" component={Exchange}/>
+      <Route exact path="/exchange" component={Exchange}/>
  
     </Switch>
     </Router>
