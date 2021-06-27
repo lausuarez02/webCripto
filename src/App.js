@@ -5,7 +5,7 @@ import Exchange from "./components/exchange";
 import CoinGecko from "coingecko-api";
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -34,9 +34,9 @@ function App() {
     <div>
           <Router>
     <Switch>
-       <Route path="/" exact component={Body}/>
+       <Route path="/" component={Body}/>
 
-      <Route path="/exchange" exact component={Exchange}/>
+      <Route  path="/exchange" component={Exchange}/>
  
     </Switch>
     </Router>
