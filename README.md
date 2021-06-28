@@ -35,14 +35,13 @@
 
 For this project I used
 #Bootstrap
-<div height="30" width="40">![fifth](/bootstrap.png)</div>
+<img src="bootstrap.png" height="30" width="40"/>
 #ReactRouter
-<div height="30" width="40">![sixth](/reactRouter.png)</div>
+<img src="reactRouter.png" height="30" width="40"/>
 #CoingeckoApi
-<img src="/coin.png" height="30" width="40">![sixth](/coin.png)</img>
-
+<img src="/coin.png" height="30" width="40"/><
 #ReactJS
-<div height="30" width="40">![React Logo](/react-logo.jpg)</div>
+<div src="react-logo.jpg" height="30" width="40"/>
 
 
 
