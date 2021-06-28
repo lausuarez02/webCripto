@@ -35,15 +35,18 @@
 
 
 For this project I used
+<p align="left">
 <h4>ReactJS</h4>
 <h4>Bootstrap</h4>
 <h4>ReactRouter</h4>
 <h4>CoingeckoApi</h4>
-
+</p>
+<p align="left">
 <img src="bootstrap.png" height="100" width="100"/>
 <img src="reactRouter.png" height="100" width="100"/>
-<img src="/coin.png" height="100" width="100"/><
+<img src="/coin.png" height="100" width="100"/>
 <img src="react-logo.jpg" height="100" width="100"/>
+  </p>
 
 
 
