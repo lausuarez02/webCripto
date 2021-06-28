@@ -35,13 +35,13 @@
 
 For this project I used
 #Bootstrap
-<img src="bootstrap.png" height="30" width="40"/>
+<img src="bootstrap.png" height="100" width="110"/>
 #ReactRouter
-<img src="reactRouter.png" height="30" width="40"/>
+<img src="reactRouter.png" height="100" width="110"/>
 #CoingeckoApi
-<img src="/coin.png" height="30" width="40"/><
+<img src="/coin.png" height="100" width="110"/><
 #ReactJS
-<div src="react-logo.jpg" height="30" width="40"/>
+<img src="react-logo.jpg" height="100" width="110"/>
 
 
 
