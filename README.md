@@ -39,7 +39,7 @@ For this project I used
 #ReactRouter
 <div height="30" width="40">![sixth](/reactRouter.png)</div>
 #CoingeckoApi
-<div height="30" width="40">![sixth](/coin.png)</div>
+<img src="/coin.png" height="30" width="40">![sixth](/coin.png)</img>
 
 #ReactJS
 <div height="30" width="40">![React Logo](/react-logo.jpg)</div>
